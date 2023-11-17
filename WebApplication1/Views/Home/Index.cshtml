@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .botao {
+        width: 250px;
+        height: 130px;
+        margin: 20px;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Portal de Relatórios</h1>
+</div>
+    <div class="menu">
+        <button class="botao" onclick="window.location.href='#nfe'">Relatório de Extrato Analitico NFSE</button>
+        <button class="botao" asp-controller="Relatorio" asp-action="RelatorioCte">Relatório de Extrato Analitico CTE</button>
+        <button class="botao" onclick="window.location.href='#nfse'">Relatório de Extrato Analitico NFE</button>
+    </div>

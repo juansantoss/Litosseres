@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0023: Usar o corpo do bloco para operadores
+csharp_style_expression_bodied_operators = false

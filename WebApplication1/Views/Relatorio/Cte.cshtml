@@ -1,0 +1,246 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="text-center">
+    <h1 class="display-4">Relatório de Extrato Analitico CTE</h1>
+</div>
+
+<table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">cUF</th>
+            <th scope="col">cCT</th>
+            <th scope="col">CFOP</th>
+            <th scope="col">natOp</th>
+            <th scope="col">mod</th>
+            <th scope="col">serie</th>
+            <th scope="col">nCT</th>
+            <th scope="col">dhEmi</th>
+            <th scope="col">tpImp</th>
+            <th scope="col">tpEmis</th>
+            <th scope="col">cDV</th>
+            <th scope="col">tpAmb</th>
+            <th scope="col">tpCTe</th>
+            <th scope="col">procEmi</th>
+            <th scope="col">verProc</th>
+            <th scope="col">cMunEnv</th>
+            <th scope="col">xMunEnv</th>
+            <th scope="col">UFEnv</th>
+            <th scope="col">modal</th>
+            <th scope="col">tpServ</th>
+            <th scope="col">cMunIni</th>
+            <th scope="col">xMunIni</th>
+            <th scope="col">UFIni</th>
+            <th scope="col">cMunFim</th>
+            <th scope="col">xMunFim</th>
+            <th scope="col">UFFim</th>
+            <th scope="col">retira</th>
+            <th scope="col">indIEToma</th>
+            <th scope="col">toma3</th>
+            <th scope="col">toma</th>
+            <th scope="col">tpPer</th>
+            <th scope="col">dProg</th>
+            <th scope="col">tpHor</th>
+            <th scope="col">origCalc</th>
+            <th scope="col">destCalc</th>
+            <th scope="col">xObs</th>
+            <th scope="col">xCampo</th>
+            <th scope="col">xTexto</th>
+            <th scope="col">CNPJ_Emitente</th>
+            <th scope="col">IE_Emitente</th>
+            <th scope="col">xNome_Emitente</th>
+            <th scope="col">xFant_Emitente</th>
+            <th scope="col">xLgr_Emitente</th>
+            <th scope="col">nro_Emitente</th>
+            <th scope="col">xBairro_Emitente</th>
+            <th scope="col">cMun_Emitente</th>
+            <th scope="col">xMun_Emitente</th>
+            <th scope="col">CEP_Emitente</th>
+            <th scope="col">UF_Emitente</th>
+            <th scope="col">fone_Emitente</th>
+            <th scope="col">CNPJ_Remetente</th>
+            <th scope="col">IE_Remetente</th>
+            <th scope="col">xNome_Remetente</th>
+            <th scope="col">xFant_Remetente</th>
+            <th scope="col">fone_Remetente</th>
+            <th scope="col">xLgr_Remetente</th>
+            <th scope="col">nro_Remetente</th>
+            <th scope="col">xBairro_Remetente</th>
+            <th scope="col">cMun_Remetente</th>
+            <th scope="col">xMun_Remetente</th>
+            <th scope="col">CEP_Remetente</th>
+            <th scope="col">UF_Remetente</th>
+            <th scope="col">cPais_Remetente</th>
+            <th scope="col">xPais_Remetente</th>
+            <th scope="col">CNPJ_Destinatario</th>
+            <th scope="col">IE_Destinatario</th>
+            <th scope="col">xNome_Destinatario</th>
+            <th scope="col">fone_Destinatario</th>
+            <th scope="col">xLgr_Destinatario</th>
+            <th scope="col">nro_Destinatario</th>
+            <th scope="col">xBairro_Destinatario</th>
+            <th scope="col">cMun_Destinatario</th>
+            <th scope="col">xMun_Destinatario</th>
+            <th scope="col">CEP_Destinatario</th>
+            <th scope="col">UF_Destinatario</th>
+            <th scope="col">cPais_Destinatario</th>
+            <th scope="col">xPais_Destinatario</th>
+            <th scope="col">vTPrest</th>
+            <th scope="col">vRec</th>
+            <th scope="col">xNome_Comp1</th>
+            <th scope="col">vComp1</th>
+            <th scope="col">xNome_Comp2</th>
+            <th scope="col">vComp2</th>
+            <th scope="col">CST_ICMS</th>
+            <th scope="col">vBCSTRet</th>
+            <th scope="col">vICMSSTRet</th>
+            <th scope="col">pICMSSTRet</th>
+            <th scope="col">infAdFisco</th>
+            <th scope="col">vCarga</th>
+            <th scope="col">proPred</th>
+            <th scope="col">cUnid</th>
+            <th scope="col">tpMed</th>
+            <th scope="col">qCarga</th>
+            <th scope="col">vCargaAverb</th>
+            <th scope="col">chave</th>
+            <th scope="col">RNTRC</th>
+            <th scope="col">CNPJ_Autorizado</th>
+            <th scope="col">CNPJ_ResponsavelTec</th>
+            <th scope="col">xContato</th>
+            <th scope="col">email</th>
+            <th scope="col">fone_ResponsavelTec</th>
+            <th scope="col">qrCodCTe</th>
+            <th scope="col">SignatureValue</th>
+            <th scope="col">tpAmb_Proto</th>
+            <th scope="col">verAplic_Proto</th>
+            <th scope="col">chCTe_Proto</th>
+            <th scope="col">dhRecbto_Proto</th>
+            <th scope="col">nProt_Proto</th>
+            <th scope="col">digVal_Proto</th>
+            <th scope="col">cStat_Proto</th>
+            <th scope="col">xMotivo_Proto</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (ExtratoAnaliticoCteModel extrato in Model)
+            {
+                <tr>
+                        <td>@extrato.cUF</td>
+                        <td>@extrato.cCT</td>
+                        <td>@extrato.CFOP</td>
+                        <td>@extrato.natOp</td>
+                        <td>@extrato.mod</td>
+                        <td>@extrato.serie</td>
+                        <td>@extrato.nCT</td>
+                        <td>@extrato.dhEmi</td>
+                        <td>@extrato.tpImp</td>
+                        <td>@extrato.tpEmis</td>
+                        <td>@extrato.cDV</td>
+                        <td>@extrato.tpAmb</td>
+                        <td>@extrato.tpCTe</td>
+                        <td>@extrato.procEmi</td>
+                        <td>@extrato.verProc</td>
+                        <td>@extrato.cMunEnv</td>
+                        <td>@extrato.xMunEnv</td>
+                        <td>@extrato.UFEnv</td>
+                        <td>@extrato.modal</td>
+                        <td>@extrato.tpServ</td>
+                        <td>@extrato.cMunIni</td>
+                        <td>@extrato.xMunIni</td>
+                        <td>@extrato.UFIni</td>
+                        <td>@extrato.cMunFim</td>
+                        <td>@extrato.xMunFim</td>
+                        <td>@extrato.UFFim</td>
+                        <td>@extrato.retira</td>
+                        <td>@extrato.indIEToma</td>
+                        <td>@extrato.toma3</td>
+                        <td>@extrato.toma</td>
+                        <td>@extrato.tpPer</td>
+                        <td>@extrato.dProg</td>
+                        <td>@extrato.tpHor</td>
+                        <td>@extrato.origCalc</td>
+                        <td>@extrato.destCalc</td>
+                        <td>@extrato.xObs</td>
+                        <td>@extrato.xCampo</td>
+                        <td>@extrato.xTexto</td>
+                        <td>@extrato.CNPJ_Emitente</td>
+                        <td>@extrato.IE_Emitente</td>
+                        <td>@extrato.xNome_Emitente</td>
+                        <td>@extrato.xFant_Emitente</td>
+                        <td>@extrato.xLgr_Emitente</td>
+                        <td>@extrato.nro_Emitente</td>
+                        <td>@extrato.xBairro_Emitente</td>
+                        <td>@extrato.cMun_Emitente</td>
+                        <td>@extrato.xMun_Emitente</td>
+                        <td>@extrato.CEP_Emitente</td>
+                        <td>@extrato.UF_Emitente</td>
+                        <td>@extrato.fone_Emitente</td>
+                        <td>@extrato.CNPJ_Remetente</td>
+                        <td>@extrato.IE_Remetente</td>
+                        <td>@extrato.xNome_Remetente</td>
+                        <td>@extrato.xFant_Remetente</td>
+                        <td>@extrato.fone_Remetente</td>
+                        <td>@extrato.xLgr_Remetente</td>
+                        <td>@extrato.nro_Remetente</td>
+                        <td>@extrato.xBairro_Remetente</td>
+                        <td>@extrato.cMun_Remetente</td>
+                        <td>@extrato.xMun_Remetente</td>
+                        <td>@extrato.CEP_Remetente</td>
+                        <td>@extrato.UF_Remetente</td>
+                        <td>@extrato.cPais_Remetente</td>
+                        <td>@extrato.xPais_Remetente</td>
+                        <td>@extrato.CNPJ_Destinatario</td>
+                        <td>@extrato.IE_Destinatario</td>
+                        <td>@extrato.xNome_Destinatario</td>
+                        <td>@extrato.fone_Destinatario</td>
+                        <td>@extrato.xLgr_Destinatario</td>
+                        <td>@extrato.nro_Destinatario</td>
+                        <td>@extrato.xBairro_Destinatario</td>
+                        <td>@extrato.cMun_Destinatario</td>
+                        <td>@extrato.xMun_Destinatario</td>
+                        <td>@extrato.CEP_Destinatario</td>
+                        <td>@extrato.UF_Destinatario</td>
+                        <td>@extrato.cPais_Destinatario</td>
+                        <td>@extrato.xPais_Destinatario</td>
+                        <td>@extrato.vTPrest</td>
+                        <td>@extrato.vRec</td>
+                        <td>@extrato.xNome_Comp1</td>
+                        <td>@extrato.vComp1</td>
+                        <td>@extrato.xNome_Comp2</td>
+                        <td>@extrato.vComp2</td>
+                        <td>@extrato.CST_ICMS</td>
+                        <td>@extrato.vBCSTRet</td>
+                        <td>@extrato.vICMSSTRet</td>
+                        <td>@extrato.pICMSSTRet</td>
+                        <td>@extrato.infAdFisco</td>
+                        <td>@extrato.vCarga</td>
+                        <td>@extrato.proPred</td>
+                        <td>@extrato.cUnid</td>
+                        <td>@extrato.tpMed</td>
+                        <td>@extrato.qCarga</td>
+                        <td>@extrato.vCargaAverb</td>
+                        <td>@extrato.chave</td>
+                        <td>@extrato.RNTRC</td>
+                        <td>@extrato.CNPJ_Autorizado</td>
+                        <td>@extrato.CNPJ_ResponsavelTec</td>
+                        <td>@extrato.xContato</td>
+                        <td>@extrato.email</td>
+                        <td>@extrato.fone_ResponsavelTec</td>
+                        <td>@extrato.qrCodCTe</td>
+                        <td>@extrato.SignatureValue</td>
+                        <td>@extrato.tpAmb_Proto</td>
+                        <td>@extrato.verAplic_Proto</td>
+                        <td>@extrato.chCTe_Proto</td>
+                        <td>@extrato.dhRecbto_Proto</td>
+                        <td>@extrato.nProt_Proto</td>
+                        <td>@extrato.digVal_Proto</td>
+                        <td>@extrato.cStat_Proto</td>
+                        <td>@extrato.xMotivo_Proto</td>
+                </tr>
+
+            }
+        </tbody>
+</table>
